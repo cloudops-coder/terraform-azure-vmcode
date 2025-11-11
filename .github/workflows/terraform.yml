@@ -50,7 +50,8 @@ on:
   pull_request:
 
 permissions:
-  contents: write
+  id-token: write
+  contents: read
 
 jobs:
   terraform:
